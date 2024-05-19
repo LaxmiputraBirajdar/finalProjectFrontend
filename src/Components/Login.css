@@ -1,0 +1,115 @@
+<<<<<<< HEAD
+.login-container {
+  padding: 20px;
+  background-color: #d2f0f7;
+  border-radius: 20px;
+}
+
+.pc-illustration {
+  width: 80%;
+  height: 50%;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+=======
+html, body {
+  background-image: url('../background.jpg'); /* Set background image for the entire page */
+  background-size: cover;
+  width: 100%;
+  height: 100%; /* Ensure the background covers the entire viewport */
+  background-position: center;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Remaining styles for login container */
+  
+.login-container {
+  max-width: 400px;
+  margin: auto; /* Center the container horizontally */
+  padding: 40px 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add box shadow */
+  transition: box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+
+.login-container:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* Change box shadow on hover */
+}
+
+.login-header {
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 2px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.login-form {
+>>>>>>> ee5a232c4ee0a9005f8499043542f3b555b23b65
+  display: flex;
+  flex-direction: column;
+}
+
+<<<<<<< HEAD
+h2 {
+  text-align: center;
+  color: #333333;
+}
+
+.TextField-root {
+  margin-bottom: 16px;
+}
+
+.Button-root {
+  margin-top: 50px;
+  background-color: #1976d2; /* Change button background color */
+  color: #ffffff; /* Change button text color */
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: black;
+}
+
+.Button-root:hover {
+  background-color: #1565c0; /* Darker shade of the button color on hover */
+=======
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  margin-top: 20px;
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif; /* Example of setting font family */
+  font-size: 16px; /* Example of setting font size */
+  color: #333; /* Example of setting font color */
+}
+
+button {
+  margin-top: 20px;
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+>>>>>>> ee5a232c4ee0a9005f8499043542f3b555b23b65
+}

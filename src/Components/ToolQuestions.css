@@ -1,0 +1,164 @@
+/* ToolQuestions.css */
+.tool-questions-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007a99;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="radio"] {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+button.submit-button {
+  display: block;
+  margin: 20px auto;
+  padding: 14px 28px;
+  background-color: #007a99;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  text-transform: uppercase;
+}
+
+button.submit-button:hover {
+  background-color: #00567d;
+}
+
+.assessment-results {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px
+}
+
+.result-text {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.circle-loader {
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+.circle-2 {
+  border-top: 5px solid #f3f3f3;
+  border-bottom: 5px solid #3498db;
+  animation-delay: -1s;
+  }
+  
+  @media (max-width: 600px) {
+  .tool-questions-container {
+  padding: 10px;
+  }
+  
+  label {
+  font-size: 14px;
+  }
+  
+  button.submit-button {
+  font-size: 16px;
+  }
+}
+.circle {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  /* animation: spin 2s linear infinite; */
+}
+
+.circle-2 {
+  border-top: 5px solid #f3f3f3;
+  border-bottom: 5px solid #3498db;
+  animation-delay: -1s;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between; /* This will space the cards evenly */
+}
+
+.card {
+  width: 200px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+.ContentFormDisease{
+  display: flex;
+  
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media (max-width: 600px) {
+  /* Adjust styles for smaller screens if needed */
+  .tool-questions-container {
+      padding: 10px;
+  }
+
+  label {
+      font-size: 14px;
+  }
+
+  button.submit-button {
+      font-size: 16px;
+  }
+}

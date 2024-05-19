@@ -1,0 +1,53 @@
+[
+    {
+        "title": "Depression",
+        "img": "Depression",
+        "text":"Depression: a complex mental health condition characterized by persistent feelings of sadness, hopelessness, and loss of interest or pleasure in activities.",
+        "link":""
+    },
+    {
+        "title": "Anxiety",
+        "text":"Anxiety: a state of excessive worry, fear, and apprehension often accompanied by physical symptoms such as palpitations and sweating.",
+        "img": "Anxiety",
+        "link":""
+    },
+    {
+        "title": "Alcohol Addiction",
+        "text": "Alcohol addiction: a chronic disease characterized by a dependence on alcohol, leading to compulsive drinking despite negative consequences.",
+        "img": "Alcohol",
+        "link":""
+    },
+    {
+        "title": "Eating Disorders",
+        "text": "Eating disorders: serious mental health conditions characterized by abnormal eating habits, often associated with a distorted body image and intense fear of gaining weight.",
+        "img": "Eating",
+        "link":""
+    },
+    {
+        "title": "Schizophrenia",
+        "text": "Schizophrenia is a chronic and severe mental disorder characterized by disturbances in thoughts, perceptions, emotions, and behaviors.",
+        "img": "Schizophrenia",
+        "link":""
+    },
+    {
+        "title": "Sleep",
+        "text": "Sleep is a natural state of rest for the body and mind, crucial for cognitive function, physical health, and emotional well-being.",
+        "img": "Sleep",
+        "link":""
+    },
+    {
+        "title": "Personality Disorder",
+        "text": "Personality disorder involves enduring patterns of inner experience and behavior that deviate markedly from societal expectations, causing distress or impairment.",
+        "img": "Personality",
+        "link":""
+    },
+    {
+        "title": "Anxiety",
+        "text":"Anxiety: a state of excessive worry, fear, and apprehension often accompanied by physical symptoms such as palpitations and sweating.",
+        "img": "Anxiety",
+        "link":""
+    }
+    
+
+
+]

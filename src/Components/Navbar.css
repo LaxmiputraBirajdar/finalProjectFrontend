@@ -1,0 +1,195 @@
+<<<<<<< HEAD
+body {
+  margin: 0;
+  padding: 0;
+}
+
+=======
+/* Navbar.css */
+>>>>>>> ee5a232c4ee0a9005f8499043542f3b555b23b65
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+<<<<<<< HEAD
+  height: 70px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+=======
+  padding: 10px;
+  background-color: skyblue;
+>>>>>>> ee5a232c4ee0a9005f8499043542f3b555b23b65
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+<<<<<<< HEAD
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+=======
+>>>>>>> ee5a232c4ee0a9005f8499043542f3b555b23b65
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+<<<<<<< HEAD
+.website-name {
+=======
+.logo img {
+  width: 50px; /* Adjust size as needed */
+  margin-right: 10px;
+}
+
+.website-name {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  letter-spacing: 3px;
+>>>>>>> ee5a232c4ee0a9005f8499043542f3b555b23b65
+  margin: 0;
+}
+
+.nav-links {
+<<<<<<< HEAD
+  list-style-type: none;
+  display: flex;
+=======
+  display: flex;
+  list-style: none;
+  padding: 0;
+>>>>>>> ee5a232c4ee0a9005f8499043542f3b555b23b65
+  margin: 0;
+}
+
+.nav-links li {
+<<<<<<< HEAD
+  margin-right: 20px;
+=======
+  margin-right: 60px;
+  font-weight: bold;
+>>>>>>> ee5a232c4ee0a9005f8499043542f3b555b23b65
+}
+
+.nav-link {
+  text-decoration: none;
+<<<<<<< HEAD
+  font-size: 16px;
+  color: #333; /* Change link color */
+}
+
+.nav-link:hover {
+  color: #4caf50; /* Change link color on hover */
+=======
+  color: black;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  color: rebeccapurple;
+  text-decoration: underline; /* Add underline during hover */
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+>>>>>>> ee5a232c4ee0a9005f8499043542f3b555b23b65
+}
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+<<<<<<< HEAD
+}
+
+.logout-button,
+.login-button,
+.signup-button {
+  margin-left: 10px;
+  padding: 8px 20px; /* Add padding to buttons */
+  font-size: 16px; /* Set font size */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Add border radius */
+  cursor: pointer; /* Add cursor pointer */
+}
+
+.logout-button {
+  background-color: #f44336; /* Change logout button background color */
+  color: white; /* Change logout button text color */
+=======
+  margin-right: 20px; /* Adjust spacing between buttons */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px; /* Adjust width as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  border-radius: 4px; /* Add border radius */
+  padding: 8px 0; /* Add padding */
+  right: 0; /* Align dropdown to the right */
+  top: 48px; /* Adjust top position as needed */
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 16px; /* Adjust padding */
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.user-profile:hover .dropdown-content {
+  display: block;
+>>>>>>> ee5a232c4ee0a9005f8499043542f3b555b23b65
+}
+
+.login-button,
+.signup-button {
+<<<<<<< HEAD
+  background-color: #4caf50; /* Change login and signup button background color */
+  color: white; /* Change login and signup button text color */
+=======
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid transparent; /* Add a border */
+  border-radius: 4px; /* Add border-radius for rounded corners */
+  padding: 8px 16px; /* Adjust padding */
+  cursor: pointer;
+}
+
+.login-button,
+.signup-button {
+  color: #fff;
+  background-color: transparent; /* Set background color */
+>>>>>>> ee5a232c4ee0a9005f8499043542f3b555b23b65
+}
+
+.login-button:hover,
+.signup-button:hover {
+<<<<<<< HEAD
+  background-color: #45a049; /* Change login and signup button background color on hover */
+=======
+  background-color: rgba(255, 255, 255, 0.1); /* Change background color on hover */
+}
+
+.login-button + .signup-button {
+  margin-left: 40px; /* Adjust spacing between buttons */
+>>>>>>> ee5a232c4ee0a9005f8499043542f3b555b23b65
+}

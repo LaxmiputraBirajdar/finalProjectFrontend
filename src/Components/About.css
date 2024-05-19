@@ -1,0 +1,51 @@
+.feature-box-1 h5,
+.feature-box-1 p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid {
+    padding-top: 100px;
+}
+
+.text-blue-green {
+    color: #2e8b57 !important; /* Dark Sea Green */
+}
+
+.text-blue {
+    color: #20247b !important;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.border-bottom {
+    border-bottom: 5px solid #f0f0f0 !important; /* Cream */
+}
+
+.display-4 {
+    font-size: 2.5rem !important;
+    font-style: italic;
+    font-family: 'rono';
+    font-weight: bold; /* Making it bold */
+}
+
+.bg-cream {
+    background-color: #f8f8f8 !important; /* Light Cream */
+}
+
+.rounded {
+    border-radius: 10px !important; /* Slight rounding */
+}
+
+.text-muted {
+    color: black !important; 
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.italic-bold {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}

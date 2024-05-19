@@ -1,0 +1,33 @@
+/* ToolsPage.css */
+
+.tools-container {
+    padding: 20px;
+  }
+  
+  .buttons-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  
+  .tool-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  .tool-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .how-it-works {
+    margin-top: 20px;
+  }
+  
+  /* Add additional styling as needed */
+  

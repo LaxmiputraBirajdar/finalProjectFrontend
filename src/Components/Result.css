@@ -1,0 +1,24 @@
+/* Result.css */
+
+.result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f8f9fa; /* Optional background color */
+  }
+  
+  .result-content {
+    text-align: center;
+  }
+  
+  .result-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .result-content p {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
